@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Girrasol;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #040f20 0%, #0066ff 100%);
+    /* background: linear-gradient(to bottom, #0066ff 0%, #ff99cc 100%); */
+}
+#container{
+    border-radius: 23px;
+    width: 22rem;
+    height: 32rem;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    background: white;
+    box-shadow: -14px 14px 22px -6px rgba(255,255,255,0.5) ;
+
+}
+#container h1{
+    text-align: center;
+}
+#container h2{
+    position: absolute;
+    left: 7rem;
+    /* text-align: center; */
+    top: 3rem;
+}
+#picture{
+    /* background: url('./CristinaPerriAThousandYears/Cristina Perri - A Thousand Years_spectrogram.png'); */
+    position: absolute;
+    width: 58%;
+    height: 40%;
+    left: 4.5rem;
+    top: 6rem;
+    border-radius: 50%;
+}
+#time-controls{
+    position: absolute;
+    /* border: 2px solid; */
+    height: 61px;
+    width: 100%;
+    top: 19.5rem;
+
+}
+#done{
+    position: absolute;
+    left: 21px;
+    font-size: 21px;
+    top: 2px;
+
+}
+#totaltime{
+    position: absolute;
+    right: 17px;
+    font-size: 21px;
+    top: 2px;
+}
+#length{
+    left: 1.5rem;
+    position: absolute;
+    top: 1.9rem;
+    width: 305px;
+    height: 10px;
+}
+#controls{
+    /* border: 2px solid grey; */
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 24rem;
+
+}
+#play,#pause{
+    background: black;
+    border: 2px solid grey;
+    position: absolute;
+    left: 9rem;
+    height: 54%;
+    border-radius: 50%;
+    width: 16%;
+    top: 1rem;
+
+}
+#play i,#pause i{
+    color: white;
+    top: 14px;
+    position: absolute;
+    left: 17px;
+    font-size: 26px;
+}
+#pause{
+    display: none;
+}
+#pause i{
+    display: none;
+}
+#prev{
+    background: black;
+    position: absolute;
+    left: 1rem;
+    height: 54%;
+    border-radius: 50%;
+    width: 16%;
+    top: 1rem;
+}
+#prev i,#next i{
+    color: white;
+    top: 14px;
+    position: absolute;
+    left: 17px;
+    font-size: 26px;
+}
+#next{
+    background: black;
+    position: absolute;
+    right: 1rem;
+    height: 54%;
+    border-radius: 50%;
+    width: 16%;
+    top: 1.1rem;
+}
+
