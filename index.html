@@ -14,25 +14,27 @@
         <h1 id="title">Title</h1>
         <h2 id="artist">Artist Name</h2>
 
-        <div id="picture"></div>
+        <div id="picture">
+            <img src="" alt="" id="cover">
+        </div>
         
         <div id="time-controls">
-            <div id="done">45:00</div>
-            <div id="totaltime">34:87</div>
-
-            <progress id="length" value="8" max="100"></progress>
+            <div id="done"></div>
+            <div id="totaltime"></div>
+          
         </div>
+            <div id="progress-container">
+                <audio src="" id="audio"></audio>
+                <!-- <input type="range" id="progress" name="progressbar" min="0"> -->
+                <!-- <div id="progress"></div> -->
+                <progress id="progress" max="100" value="0"></progress>
+            </div>
         <div id="controls">
             <div id="prev"><i class="fas fa-step-backward"></i></div>
-            <div id="pause"><i class="fas fa-play"></i></div>
-            <div id="play"><i class="fas fa-pause"></i></div>
+            <div id="pause"><i class="fas fa-pause"></i></div>
+            <div id="play"><i class="fas fa-play"></i></div>
             <div id="next"><i class="fas fa-step-forward"></i></div>
-
-
         </div>
-
-
-
     </div>
     <script src="script.js"></script>
 </body>
