@@ -32,12 +32,18 @@ body{
     top: 3rem;
 }
 #picture{
-    /* background: url('./CristinaPerriAThousandYears/Cristina Perri - A Thousand Years_spectrogram.png'); */
     position: absolute;
     width: 58%;
     height: 40%;
     left: 4.5rem;
     top: 6rem;
+    border-radius: 50%;
+}
+#cover{
+    position: absolute;
+    width: 200px;
+    left: 0px;
+    height: 200px;
     border-radius: 50%;
 }
 #time-controls{
@@ -60,6 +66,29 @@ body{
     right: 17px;
     font-size: 21px;
     top: 2px;
+}
+#progress-container{
+    /* height: 54px;
+    position: absolute;
+    top: 21rem;
+    width: 100%;
+    border: 2px solid black; */
+    width: 80%;
+    border-radius: 20px;
+    /* border: 1px solid grey; */
+    position: absolute;
+    height: 12px;
+    left: 2.1rem;
+    top: 21.5rem;
+
+}
+#progress{
+    height: 25px;
+    width: 100%;
+    /* background: rgb(29, 162, 185); */
+    position: absolute;
+    top: -5.6px;
+
 }
 #length{
     left: 1.5rem;
@@ -95,9 +124,11 @@ body{
     font-size: 26px;
 }
 #pause{
-    display: none;
+    /* display: none; */
 }
 #pause i{
+    z-index: 1;
+    /* visibility: hidden; */
     display: none;
 }
 #prev{
